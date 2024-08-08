@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { useId } from "react";
 import Link from "next/link";

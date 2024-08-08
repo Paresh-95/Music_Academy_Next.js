@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import courseData from "../data/music_course.json";
 import Button from "./Button";
