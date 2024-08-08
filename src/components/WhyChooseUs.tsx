@@ -43,7 +43,7 @@ const musicSchoolContent = [
 
 
 
-export function WhyChooseUs() {
+export default function WhyChooseUs() {
   return (
     <div>
       <StickyScroll content={musicSchoolContent} />
