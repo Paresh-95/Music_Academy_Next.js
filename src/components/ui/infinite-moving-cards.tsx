@@ -25,6 +25,7 @@ export const InfiniteMovingCards = ({
 
   useEffect(() => {
     addAnimation();
+    // eslint-disable-next-line
   }, []);
   const [start, setStart] = useState(false);
   function addAnimation() {

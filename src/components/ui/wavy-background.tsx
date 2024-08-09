@@ -96,6 +96,7 @@ export const WavyBackground = ({
     init();
     return () => {
       cancelAnimationFrame(animationId);
+      // eslint-disable-next-line
     };
   }, []);
 
