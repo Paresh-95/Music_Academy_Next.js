@@ -12,11 +12,11 @@ export default function Card({ featureCourses }:any ) {
     <div className="py-10 lg:py-20 ">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-10 md:gap-2 lg:gap-14 max-w-6xl mx-auto">
         {featureCourses.map((feature: any) => (
-          <BackgroundGradient key={feature.id}>
+          <div key={feature.id} >
+          <BackgroundGradient >
           <div
-           
             className="relative bg-gradient-to-b dark:from-neutral-900 from-neutral-100 dark:to-neutral-950 to-white p-6 rounded-3xl overflow-hidden flex flex-col justify-between"
-          >
+           >
             <div>
               <Grid size={20} />
               <p className="text-base font-bold text-neutral-800 dark:text-white relative z-20">
@@ -33,9 +33,11 @@ export default function Card({ featureCourses }:any ) {
             </div>
           </div>
           </BackgroundGradient>
+          </div>
         ))}
       </div>
     </div>
+    
   );
 }
 
