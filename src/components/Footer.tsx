@@ -41,7 +41,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <p className='text-center text-xs pt-10'>© 2024 Music School. All rights reserved</p>
+      <p className='text-center text-xs pt-10'>© Paresh Bhamare 2024 Music School. All rights reserved</p>
     </footer>
   );
 }
